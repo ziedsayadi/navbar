@@ -1,0 +1,45 @@
+.list{
+  display: flex;
+  justify-content: space-between;
+  width:500px;
+  list-style: none;
+  border-bottom:2px solid #2D3436  ;
+  padding: 0;
+}
+.App{
+  background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.titre{
+  position:relative;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: 600;
+}
+.titre:hover{
+  cursor: pointer;
+  color:blue
+}
+
+.dropdown{
+  color: black;
+  display:none;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  border:solid rgb(79, 13, 112);
+  text-align: left;
+  font-weight: lighter;
+
+}
+.titre:hover .dropdown{
+  display:flex;
+  flex-direction: column;
+}
